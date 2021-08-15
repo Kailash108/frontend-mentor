@@ -3,8 +3,8 @@ function getData(t){
     var tip = t/100
     var people = document.getElementById('noOfPpl').value
     console.log(cost, tip, people)
-    var tipAmt = ((cost/people)*tip).toFixed(3)
-    var totAmt = (tipAmt*people).toFixed(3)
+    var tipAmt = ((cost/people)*tip).toFixed(2)
+    var totAmt = (tipAmt*people).toFixed(2)
     document.getElementById('tip').innerHTML = `₹ ${tipAmt}`
     document.getElementById('tot').innerHTML = `₹ ${totAmt}`
   }
