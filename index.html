@@ -1,0 +1,284 @@
+<html>
+  <head>
+    <title>Sunnyside Agency</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link src="stylesheet" src="https://fonts.googleapis.com/css?family=Barlow">
+    <link src="stylesheet" src="https://fonts.googleapis.com/css?family=Fraunces">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  </head>
+  <style>
+    body{
+      overflow-x: hidden;
+    }
+    .img{
+      background-image: url('./images/desktop/image-header.jpg');
+      height: 65vh;
+      width: 100%;
+    }
+    .navbar-toggle, .navbar-brand, .navbar-nav{
+      color: white;
+      font-weight: bolder;
+      font-size: 1cm;
+      margin: 0.4cm;
+      margin-left: auto;
+    }
+
+    .collapse{
+      margin-left: 30cm
+    }
+
+    .test{
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      transition: 0.5s;
+    }
+    .test:hover{
+      color: #3EBFFF;
+      background-color: hsl(200, 100%, 80%) !important;
+      transition: 0.5s;
+      border-radius: 0.4cm;
+    }
+    .heading{
+      color: white;
+      text-align: center;
+      position: relative;
+      top: 3cm;
+      font-family: 'Courier New';
+      font-size: 1.3cm;
+      font-weight: bolder;
+      letter-spacing: 0.1cm;
+    }
+    .arrow{
+      position: relative;
+      left: 48%;
+      top: 8cm
+    }
+    .col2{
+      background-color: #FFFBF8;
+      text-align: center;
+      padding-top: 25vh;
+      height: 80vh;
+    }
+    .img2{
+      width: max-content;
+      height: 80vh;
+    }
+    .p1{
+      font-weight: 100;
+      font-size: 20px;
+      padding-top: 0.8cm;
+      color: grey;
+      padding-left: 2cm;
+      padding-right: 2cm;
+    }
+    .p2{
+      font-weight: 100;
+      font-size: 20px;
+      padding-top: 0.8cm;
+      color: black;
+      padding-left: 2cm;
+      padding-right: 2cm;
+    }
+    .btnp1{
+      background-color: #FFFBF8;
+      border: none;
+      margin-top: 1cm;
+      padding: 0.5cm;
+      font-size: 20px;
+      text-decoration: underline gold 10px;
+      transition: 0.5s;
+    }
+    .btnp2{
+      background-color: #FFFBF8;
+      border: none;
+      margin-top: 1cm;
+      padding: 0.5cm;
+      font-size: 20px;
+      text-decoration: underline #FE7263 10px;
+      transition: 0.5s;
+    }
+    .btnp2:hover{
+      transition: 0.5s;
+      background-color: #FE7263;
+    }
+    
+    .btnp1:hover{
+      transition: 0.5s;
+      background-color: gold;
+    }
+
+    #graphic{
+      text-align: center;
+      position: relative;
+      top:-6cm;
+      margin-bottom: -4.3cm;
+    }
+    #photo{
+      text-align: center;
+      position: relative;
+      top:-6cm;
+      margin-bottom: -3.7cm;
+    }
+    #client{
+      text-align: center;
+      color: gray;
+      padding-top: 2cm;
+      padding-bottom: 1cm;
+    }
+    .testi{
+      text-align: center;
+      font-weight: 500;
+      padding-bottom:3cm
+    }
+    #footer{
+      padding: 2cm;
+      text-align: center;
+      background-color: #A0DACC;
+    }
+    #footerLinks > a{
+      color: black;
+      margin-left: 3cm;
+      padding-right: 2cm;
+      font-size: 0.5cm;
+    }
+    #icons > a > img{
+      margin-left: 1cm;
+      height: 1cm;
+
+    }
+  </style>
+  <body>
+      <div class="img">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">sunnyside</a>
+              <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">≡</button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a class="test" href="#">About</a></li>
+                <li><a class="test" href="#">Services</a></li>
+                <li><a class="test" href="#">Projects</a></li>
+                <li><a class="test" href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <h1 class="heading">WE ARE CREATIVES</h1>
+        <img class="arrow" src="./images/icon-arrow-down.svg">
+        <img class="img img-responsive" src="./images/desktop/image-header.jpg" alt='imgHeader'>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col2 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <h1 style="font-weight: bolder;">
+                Transform your brand
+                <p class="p1"> We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+                <button class="btnp1">LEARN MORE</button>
+              </h1>
+            </div>  
+            <div style="background-color: gold;" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <img class="img-responsive" src="images/desktop/image-transform.jpg">
+            </div>
+          </div>
+        </div>     
+        <div class="container-fluid">
+          <div class="row">
+            <div style="background-color: #FE7263;" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <img class="img-responsive" src="images/desktop/image-stand-out.jpg">
+            </div>
+            <div class="col2 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <h1 style="font-weight: bolder;">
+                Stand out to the right audience
+                <p class="p1">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+                <button class="btnp2">LEARN MORE</button>
+              </h1>
+            </div>  
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div style="background-color: #A0DACC;" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <img class="img-responsive" src="images/desktop/image-graphic-design.jpg">
+              <h1 id="graphic" style="font-weight: bolder;">
+                Grpahic Design
+                <p class="p2">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+              </h1>
+            </div>
+            <div style="background-color: #66C8FF;" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <img class="img-responsive" src="images/desktop/image-photography.jpg">
+              <h1 id="photo" style="font-weight: bolder;">
+                Photography
+                <p class="p2">Photography Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+              </h1>
+            </div>
+            </div>
+            </div>
+            <div class="container testi">
+              <div class="row">
+                <h1 id="client" >Client Testimonals</h1>
+                <div class="col-sm-4">
+                  <img src="./images/image-emily.jpg" class="img-circle" alt="Emily">
+                  <p style="padding-top: 0.5cm;">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+                  <h3 style="padding-top: 0.5cm;;font-weight: bold;">Emily R.</h3>
+                  <p>Marketing Director</p>
+                </div>
+                <div class="col-sm-4">
+                  <img src="./images/image-thomas.jpg" class="img-circle" alt="Thomas">
+                  <p style="padding-top: 0.5cm;">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+                  <h3 style="font-weight: bold;">Thomas S.</h3>
+                  <p>Chief Operating Officer</p>
+                </div>
+                <div class="col-sm-4">
+                  <img src="./images/image-jennie.jpg" class="img-circle" alt="Jennie">
+                  <p style="padding-top: 0.5cm;">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+                  <h3 style="padding-top: 0.5cm;font-weight: bold;">Jennie F.</h3>
+                  <p>Business Owner</p>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid">
+              <div class="row">
+                <div style="background-color: #3EBFFF;" class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                  <img class="img-responsive" src="images/desktop/image-gallery-cone.jpg">
+                </div>
+                <div style="background-color: #40B1ED;" class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                  <img class="img-responsive" src="images/desktop/image-gallery-milkbottles.jpg">
+                </div>
+                <div style="background-color: #FE9900;" class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                  <img class="img-responsive" src="images/desktop/image-gallery-orange.jpg">
+                </div>
+                <div style="background-color: #FE7263;" class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                  <img class="img-responsive" src="images/desktop/image-gallery-sugarcubes.jpg">
+                </div>
+              </div>
+            </div>
+            <div id="footer" class="container-fluid">
+              <div class="row">
+                <h1 style="font-weight: bolder;">sunnyside</h1>
+                <p style="margin-top: 1cm;" id="footerLinks">
+                  <a href="#">About</a>
+                  <a href="#">Services</a>
+                  <a href="#">Contact</a>
+                </p>
+              </div>
+              <div style="padding-top: 0.5cm;padding-bottom:2cm">
+                <p id="icons">
+                  <a href="#"><img alt="FaceBook" src="images/icon-facebook.svg"></a>
+                  <a href="#"><img alt="Instagram" src="images/icon-instagram.svg"></a>
+                  <a href="#"><img alt="Twitter" src="images/icon-twitter.svg"></a>
+                  <a href="#"><img alt="Pinterest" src="images/icon-pinterest.svg"></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    
+  </body>
+</html>
