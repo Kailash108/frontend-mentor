@@ -1,0 +1,102 @@
+<!-- Get insights that help your business grow.
+
+Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+experience, and overall efficiency.
+
+10k+ companies
+314 templates
+12m+ queries -->
+<html>
+  <head>
+    <title>Frontend Mentor | Stats preview card component</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap');
+    body{
+      background-color: hsl(233, 49%, 7%);
+      color: white;
+      margin-top: 10%;
+    }
+    .card{
+      margin: auto;
+      width: 50%;
+      display: flex;
+      background-color: hsl(244, 38%, 16%);
+      width: max-content;
+    }
+    .sub1{
+      padding: 1cm;
+      width: 10cm;
+      margin-bottom: -1cm; 
+    }
+    .sub2 img{
+      height: 10cm;
+      width: 100%;
+    }
+    .footer{
+      display: flex;
+    }
+    .footer > div{
+      padding-left: 1cm;
+    }
+    @media (max-width: 920px){
+      body{
+        background-color: hsl(233, 49%, 7%);
+        color: white;
+        margin-top: 10%;
+      }
+      .card{
+        margin: auto;
+        width: 50%;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: hsl(244, 38%, 16%);
+        width: max-content;
+      }
+      .sub1{
+        padding: 1.6cm;
+        width: 10cm;
+        margin-right: -2cm; 
+      }
+      .sub2 img{
+        height: 10cm;
+        width: 100%;
+      }
+      .footer{
+        display: flex;
+      }
+      .footer > div{
+        padding-left: 1cm;
+      }
+    }
+  </style>
+  <body>
+      <div class="card">
+        <div class="sub1">
+          <h1 style="font-family: 'Inter'">Get <span style="color:#904CB9">Insights</span> that help your business grow.</h1>
+          <p style="font-family: 'Lexend Deca';color:grey">Discover the benefits of data analytics  and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+
+          <div class="footer">
+            <div>
+              <h2 style="font-family: 'Inter'">10K+</h2>
+              <p style="font-family: 'Lexend Deca';color:grey;position:relative;top:-0.5cm;font-size:10px">COMPANIES</p>
+            </div>
+            <div>
+              <h2 style="font-family: 'Inter'">314</h2>
+              <p style="font-family: 'Lexend Deca';color:grey;position:relative;top:-0.5cm;font-size:10px">TEMPLATES</p>
+            </div>
+            <div>
+              <h2 style="font-family: 'Inter'">12M+</h2>
+              <p style="font-family: 'Lexend Deca';color:grey;position:relative;top:-0.5cm;font-size:10px">QUERIES</p>
+            </div>
+          </div>
+        </div>
+        <div class="sub2">
+          <img src="images/image-header-desktop.jpg" alt="img">
+        </div>
+      </div>
+  </body>
+</html>
