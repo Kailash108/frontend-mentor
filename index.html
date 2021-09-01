@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Profile card component</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+    body{
+      font-family: 'Kumbh Sans';
+      background-color: hsl(185, 75%, 39%);
+      background-image: url('./images/bg-pattern-top.svg');
+      background-size: cover;
+      background-position-y: 25vh;
+      background-position-x: 50vw;
+    }
+    #img2{
+      margin: auto;
+      border-radius: 50%;
+      border: solid white;
+      position: relative;
+      top: -1.5cm;
+    }
+    #img1{
+      border-top-left-radius: 0.5cm;
+      border-top-right-radius: 0.5cm;
+    }
+    .bottomCard{
+      background-color: white;
+      border-bottom-left-radius: 0.5cm;
+      border-bottom-right-radius: 0.5cm;
+      position: relative;
+      top: -0.1cm;
+    }
+    .bottomCard > h2, .bottomCard > p{
+      position: relative;
+      top: -1cm;
+    }
+    .card{
+      margin: auto;
+      width: 50vw;
+      text-align: center;
+      width: fit-content;
+      position: relative;
+      top: 17vh;
+    }
+    .footer{
+      padding-top: -2cm;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .footer > div > p{
+      position: relative;
+      top: -0.5cm;
+      color: gray;
+    }
+    .footer > div > h3{
+      font-weight: bolder;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img id="img1" alt="top" src="images/bg-pattern-card.svg">
+    <div class="bottomCard">
+      <img id="img2" alt="person" src="images/image-victor.jpg">
+      <h2>Victor Crest <span style="font-weight: 100;color:gray">26</span> </h2>
+      <p style="color: grey;">London</p>
+      <hr>
+      <div class="footer">
+        <div>
+          <h3>80K</h3>
+          <p>Followers</p>
+        </div>
+        <div>
+          <h3>803K</h3>
+          <p>Likes</p>
+        </div>
+        <div>
+          <h3>1.4K</h3>
+          <p>Photos</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
