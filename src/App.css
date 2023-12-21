@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Outfit;
+  src: url(../public/Outfit-VariableFont_wght.ttf);
+}
+body{
+ background-color: hsl(212, 45%, 89%);
+ font-family: Outfit;
+}
+.App{
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 0.5cm;
+  width: min-content;
+}
+img{
+  height: 6cm;
+}
+.desc{
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+  font-size: 20px;
+}
+.desc2{
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  font-size: 15px;
+}
