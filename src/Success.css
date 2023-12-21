@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../public/assets/fonts/Roboto-Regular.ttf);
+  }
+
+  body{
+    background-color: hsl(234, 29%, 20%);
+    font-size: 14px;
+  }
+  .MainComponent{
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    font-family: Roboto;
+    position: absolute;
+    margin: 25vh 20vw 20vh 30vw;
+    padding: 25px;
+    border-radius: 1cm;
+  }
+  .headh1{
+    font-weight: bolder;
+    font-size: 1cm;
+  }
+  .email{
+    font-weight: 700;
+  }
+  .iconlist{
+    height: 50px
+  }
+  button{
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+  }
+  
+  @media only screen and (max-width: 1200px){
+    body{
+      background-color: hsl(234, 29%, 20%);
+      font-size: 12px;
+    }
+    .MainComponent{
+      display: flex;
+      background-color: hsl(0, 0%, 100%);
+      font-family: Roboto;
+      position: absolute;
+      margin: 30vh 20vw 10vh 30vw;
+      padding: 20px;
+      border-radius: 0.5cm;
+      font-weight: 100;
+    }
+    .headh1{
+      font-weight: 700;
+      font-size: 1cm;
+    }
+  }
+  
+  @media only screen and (max-width: 950px){
+    body{
+      background-color: hsl(234, 29%, 20%);
+      font-size: 12px;
+    }
+    .headh1{
+      font-weight: 700;
+      font-size: 0.7cm;
+    }
+  }
+  
+  @media only screen and (max-width: 810px){
+    body{
+      background-color: hsl(234, 29%, 20%);
+    }
+    .MainComponent{
+      display: flex;
+      flex-direction: column-reverse;
+      background-color: hsl(0, 0%, 100%);
+      font-family: Roboto;
+      padding: 0;
+      margin: 20vh 25vw 10vh 20vw;
+      border-radius: 0.5cm;
+    }
+    .headh1{
+        font-weight: bold;
+      font-size: 1cm;
+    }
+    button{
+      background-color: hsl(234, 29%, 20%);
+      color: white;
+      border: none;
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 13px;
+    }
+  }
+  
+  @media only screen and (max-width: 400px){
+    body{
+      background-color: hsl(234, 29%, 20%);
+      font-weight: 400;
+      font-size: 6px;
+    }
+    .MainComponent{
+      display: flex;
+      flex-direction: column-reverse;
+      background-color: hsl(0, 0%, 100%);
+      margin: 20vh 15vw 10vh 15vw;
+      font-family: Roboto;
+      border-radius: 0.3cm;
+    }
+    .headh1{
+      font-weight: bold;
+      font-size: 0.7cm;
+    }    
+  }

@@ -7,21 +7,21 @@ body{
   background-color: hsl(234, 29%, 20%);
   font-size: 14px;
 }
-.MainComponent{
+#MainComponent{
   display: flex;
   background-color: hsl(0, 0%, 100%);
   font-family: Roboto;
   position: absolute;
   margin: 10vh 20vw 10vh 20vw;
-  padding: 25px;
+  padding: 30px;
   border-radius: 1cm;
 }
 .headh1{
-  font-weight: bolder;
+  font-weight: 700;
   font-size: 1cm;
 }
 .left{
-  padding: 15px;
+  padding: 10px;
 }
 .rightImg{
   height: 10cm;
@@ -53,24 +53,41 @@ input{
   position: relative;
   margin-top: -10px;
 }
+.errInp{
+  width: 100%; 
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  margin-top: -10px;
+  border: 1px solid #cc0033;
+  background-color: #fce4e4;
+  
+}
+.error{
+  float: right;
+  color: red;
+  font-weight: 500;
+}
+
 
 @media only screen and (max-width: 1200px){
   body{
-    background-color: blue;
+    background-color: hsl(234, 29%, 20%);
     font-size: 10px;
     font-weight: 600;
   }
-  .MainComponent{
+  #MainComponent{
     display: flex;
     background-color: hsl(0, 0%, 100%);
     font-family: Roboto;
     position: absolute;
-    margin: 10vh 20vw 10vh 20vw;
-    padding: 10px;
+    margin: 10vh 20vw 10vh 25vw;
+    padding: 20px;
     border-radius: 0.5cm;
   }
   .headh1{
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 1cm;
   }
   button{
@@ -89,23 +106,23 @@ input{
 
 @media only screen and (max-width: 950px){
   body{
-    background-color: red;
+    background-color: hsl(234, 29%, 20%);
     font-size: 10px;
   }
   .headh1{
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 0.7cm;
   }
   .left{
-    padding: 22px;
+    padding: 10px;
   }  
 }
 
 @media only screen and (max-width: 810px){
   body{
-    background-color: chartreuse;
+    background-color: hsl(234, 29%, 20%);
   }
-  .MainComponent{
+  #MainComponent{
     display: flex;
     flex-direction: column-reverse;
     background-color: hsl(0, 0%, 100%);
@@ -114,13 +131,16 @@ input{
     border-radius: 0.5cm;
   }
   .headh1{
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 1cm;
   }
   .rightImg{
     height: 0%;
     width: 100%;
   }
+  .left{
+    padding: 20px;
+  }  
   button{
     background-color: hsl(234, 29%, 20%);
     color: white;
@@ -149,11 +169,11 @@ input{
 
 @media only screen and (max-width: 400px){
   body{
-    background-color: brown;
+    background-color: hsl(234, 29%, 20%);
     font-weight: 400;
     font-size: 6px;
   }
-  .MainComponent{
+  #MainComponent{
     display: flex;
     flex-direction: column-reverse;
     background-color: hsl(0, 0%, 100%);
@@ -180,17 +200,15 @@ input{
     font-size: 6px;
   }
   label{
-    font-weight: bolder;
-    font-size: 10px;
+    font-weight: 700;
+    font-size: 6px;
   }
   input{
     width: 100%; 
     box-sizing: border-box;
-    border: solid -5px black;
+    border: solid 1px black;
     border-radius: 5px;
-    padding: 10px;
     position: relative;
-    margin-top: -5px;
     font-size: 6px;
   }
 }
