@@ -1,3 +1,3 @@
 # frontend-mentor
 
-Live URL -> Will be updated shortly
+Live URL -> https://fem-newsletter-react.netlify.app/
